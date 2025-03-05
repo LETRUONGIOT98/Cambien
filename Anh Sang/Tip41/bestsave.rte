@@ -1,0 +1,209 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   (wire (path BOT 152400  -4953000 5588000 -4953000 5290000 -4680000 5290000)
+    (connect (terminal wire) (terminal pin TIP41-1))
+   )
+   (wire (path BOT 152400  -7604000 5260000 -7604000 6540500 -8020000 6540500
+     -8020000 7160000)
+    (connect (terminal pin 1N4007-1) (terminal pin RL1-4))
+   )
+   (wire (path BOT 152400  -4953000 5588000 -5969000 5588000 -5969000 5080000
+     -5492000 5080000 -5492000 4830000)
+    (connect (terminal wire) (terminal smd RV1-1))
+   )
+   (wire (path BOT 152400  -4953000 5588000 -4953000 5960000 -6800000 5960000)
+    (connect (terminal wire) (terminal pin RL1-0))
+   )
+   (wire (path BOT 152400  -6760000 5260000 -7604000 5260000)
+    (connect (terminal wire) (terminal pin 1N4007-1))
+   )
+   (wire (path BOT 152400  -6800000 5960000 -6800000 5334000 -6760000 5334000
+     -6760000 5260000)
+    (connect (terminal pin RL1-0) (terminal wire))
+   )
+   (wire (path BOT 152400  -7604000 4860000 -7874000 4860000 -7874000 5260000
+     -7604000 5260000)
+    (connect (terminal pin D3-1) (terminal pin 1N4007-1))
+   )
+   (wire (path BOT 152400  -6760000 4900000 -6760000 5260000)
+    (connect (terminal pin 1000UF-0) (terminal wire))
+   )
+   )
+   (Net #00001 
+   (rule
+   )
+   (wire (path BOT 152400  -5410000 6416000 -6350000 6416000 -6350000 6794500
+     -7175500 6794500 -7175500 7620000 -9588500 7620000 -9588500 6252000
+     -9310000 6252000)
+    (connect (terminal pin IRF540-2) (terminal pin J1-1))
+   )
+   (wire (path BOT 152400  -7600000 4450000 -8382000 4450000 -8382000 6252000
+     -9310000 6252000)
+    (connect (terminal pin D4-0) (terminal pin J1-1))
+   )
+   (wire (path BOT 152400  -6760000 4080000 -6477000 4080000 -6477000 4029000
+     -5790000 4029000)
+    (connect (terminal wire) (terminal pin LDR1-1))
+   )
+   (wire (path BOT 152400  -4780000 4002000 -5207000 4002000 -5207000 4029000
+     -5790000 4029000)
+    (connect (terminal pin 470UF-1) (terminal pin LDR1-1))
+   )
+   (wire (path BOT 152400  -7604000 4080000 -7600000 4080000 -7600000 4450000)
+    (connect (terminal pin D5-0) (terminal pin D4-0))
+   )
+   (wire (path BOT 152400  -5410000 6416000 -5143500 6416000 -5143500 6430000
+     -4688000 6430000)
+    (connect (terminal pin IRF540-2) (terminal smd RV2-2))
+   )
+   (wire (path BOT 152400  -6760000 4080000 -7604000 4080000)
+    (connect (terminal wire) (terminal pin D5-0))
+   )
+   (wire (path BOT 152400  -6760000 4080000 -6760000 4392000)
+    (connect (terminal wire) (terminal pin 1000UF-1))
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 152400  -5790000 4410000 -6000000 4410000 -6000000 4830000)
+    (connect (terminal pin LDR1-0) (terminal smd RV1-2))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 152400  -4130000 4964000 -4130000 4254500 -5270500 4254500
+     -5270500 5338000 -5746000 5338000)
+    (connect (terminal pin 1K-1) (terminal smd RV1-0))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 152400  -4130000 5980000 -4680000 5980000 -4680000 5544000)
+    (connect (terminal pin 1K-0) (terminal pin TIP41-0))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path BOT 152400  -4680000 5036000 -4445000 5036000 -4445000 5207000
+     -3683000 5207000 -3683000 6223000 -4445000 6223000 -4445000 6667500
+     -4953000 6667500 -4953000 6924000 -5410000 6924000)
+    (connect (terminal pin TIP41-2) (terminal pin IRF540-0))
+   )
+   (wire (path BOT 152400  -4680000 5036000 -4680000 4762500 -4780000 4762500
+     -4780000 4510000)
+    (connect (terminal pin TIP41-2) (terminal pin 470UF-0))
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path BOT 152400  -4180000 6430000 -4180000 6938000 -4434000 6938000)
+    (connect (terminal smd RV2-1) (terminal smd RV2-0))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path BOT 152400  -8620000 5260000 -9969500 5260000 -9969500 8001000
+     -6800000 8001000 -6800000 7160000)
+    (connect (terminal pin 1N4007-0) (terminal pin RL1-1))
+   )
+   (wire (path BOT 152400  -5410000 6670000 -6159500 6670000 -6159500 7160000
+     -6800000 7160000)
+    (connect (terminal pin IRF540-1) (terminal pin RL1-1))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 152400  -9310000 6760000 -9310000 7429500 -7366000 7429500
+     -7366000 6560000 -6600000 6560000)
+    (connect (terminal pin J1-0) (terminal pin RL1-2))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path BOT 152400  -9330000 4910000 -9588500 4910000 -9588500 4080000
+     -8620000 4080000)
+    (connect (terminal pin 12V-0) (terminal pin D5-1))
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path BOT 152400  -9330000 4402000 -9330000 4450000 -8616000 4450000)
+    (connect (terminal pin 12V-1) (terminal pin D4-1))
+   )
+   (wire (path BOT 152400  -8620000 4860000 -8616000 4860000 -8616000 4450000)
+    (connect (terminal pin D3-0) (terminal pin D4-1))
+   )
+   )
+  )
+ )
